@@ -1,9 +1,8 @@
-package com.zarutski.task04;
+package by.epamtc.zarutski.task04;
 
 public class Task04 {
 
     public static void main(String[] args) {
-        System.out.println(functionX(1));
         System.out.println(functionX(14));
     }
 

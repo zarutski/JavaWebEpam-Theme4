@@ -1,18 +1,18 @@
-package com.zarutski.task09;
+package by.epamtc.zarutski.task09;
 
 public class Task09 {
 
     public static void main(String[] args) {
-        System.out.println(countFunc(10));
+        System.out.println(calcFunction(10));
     }
 
-    public static long countFunc(long n) {
+    public static long calcFunction(long n) {
         long result = 1;
         long sum = 1;
 
         for (int i = 2; i <= n; i++) {
-            sum += i;
-            result *= sum;
+            sum = sum + i;
+            result = result * sum;
         }
         return result;
     }
