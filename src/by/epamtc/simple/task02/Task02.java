@@ -1,13 +1,13 @@
-package by.epamtc.zarutski.task02;
+package by.epamtc.simple.task02;
 
 public class Task02 {
 
     public static void main(String[] args) {
-        Date date = getDateByDayNumber(64);
+        Date date = dateByDayNumber(64);
         System.out.println(date);
     }
 
-    public static Date getDateByDayNumber(int dayNumber) {
+    public static Date dateByDayNumber(int dayNumber) {
         int day = dayNumber;
         int month = 1;
         boolean monthNotDetermined = true;

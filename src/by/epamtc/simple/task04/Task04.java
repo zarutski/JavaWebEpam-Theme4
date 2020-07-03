@@ -1,4 +1,4 @@
-package by.epamtc.zarutski.task04;
+package by.epamtc.simple.task04;
 
 public class Task04 {
 
@@ -9,8 +9,7 @@ public class Task04 {
     public static double functionX(double x) {
         if (x <= 13) {
             return (-Math.pow(x, 3) + 9);
-        } else {
-            return -3 / (x + 1);
         }
+        return -3 / (x + 1);
     }
 }

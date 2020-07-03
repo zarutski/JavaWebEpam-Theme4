@@ -1,4 +1,4 @@
-package by.epamtc.zarutski.task01;
+package by.epamtc.simple.task01;
 
 import static java.lang.Math.*;
 

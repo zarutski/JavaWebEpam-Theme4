@@ -1,4 +1,4 @@
-package by.epamtc.zarutski.task02;
+package by.epamtc.simple.task02;
 
 public class Date {
     public int day;

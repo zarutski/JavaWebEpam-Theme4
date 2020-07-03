@@ -1,4 +1,4 @@
-package by.epamtc.zarutski.task05;
+package by.epamtc.simple.task05;
 
 public class Task05 {
 

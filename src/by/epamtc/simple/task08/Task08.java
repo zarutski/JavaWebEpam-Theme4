@@ -1,4 +1,4 @@
-package by.epamtc.zarutski.task08;
+package by.epamtc.simple.task08;
 
 public class Task08 {
 
@@ -14,11 +14,10 @@ public class Task08 {
 
     private static double calcFuncY(double x) {
         double c = 4;
-
         if (x == 15) {
             return (x + c) * 2;
-        } else {
-            return (x - c) + 6;
         }
+
+        return (x - c) + 6;
     }
 }

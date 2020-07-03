@@ -1,4 +1,4 @@
-package by.epamtc.zarutski.task10;
+package by.epamtc.simple.task10;
 
 import java.util.Scanner;
 
